@@ -37,9 +37,9 @@ fetch('https://nlgrjwhxbk.execute-api.us-east-1.amazonaws.com/dev/',{
   mode: 'no-cors',
   Headers: {
     Accept: 'application.json',
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Request-Method": "POST",
-    "Access-Control-Request-Headers": "X-PINGOTHER, Content-Type"
+    'Access-Control-Allow-Origin': "*",
+    'Access-Control-Request-Method': "POST",
+    'Access-Control-Request-Headers': "X-PINGOTHER, Content-Type"
   },
   Body: JSON.stringify(data1),
   Cache: 'default'
