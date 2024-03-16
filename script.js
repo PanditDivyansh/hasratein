@@ -32,7 +32,7 @@ document.querySelector(".scroll-btn").addEventListener("click", () => {
 
 
 function postData(){
-fetch('https://snbxzuu3e8.execute-api.us-east-1.amazonaws.com/dev/POST',{
+fetch('https://snbxzuu3e8.execute-api.us-east-1.amazonaws.com/dev/POST/',{
   Method: 'POST',
   mode: 'cors',
   Headers: {
