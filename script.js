@@ -34,7 +34,7 @@ document.querySelector(".scroll-btn").addEventListener("click", () => {
 function postData(){
 fetch('https://snbxzuu3e8.execute-api.us-east-1.amazonaws.com',{
   Method: 'POST',
-  mode: 'cors',
+  mode: 'no-cors',
   Headers: {
     Accept: 'application.json',
     "Access-Control-Allow-Origin": "*",
