@@ -34,12 +34,12 @@ document.querySelector(".scroll-btn").addEventListener("click", () => {
 function postData(){
 fetch('https://snbxzuu3e8.execute-api.us-east-1.amazonaws.com',{
   Method: 'POST',
-  mode: 'no-cors',
+  mode: 'cors',
   Headers: {
-    Accept: 'application.json',
+    // Accept: 'application.json',
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Request-Method": "POST",
-    "Access-Control-Request-Headers": "X-PINGOTHER, Content-Type"
+    "Access-Control-Request-Method": "OPTIONS,POST",
+    "Access-Control-Request-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token"
   },
   Body: JSON.stringify(data1),
   Cache: 'default'
