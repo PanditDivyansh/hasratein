@@ -36,7 +36,6 @@ fetch('https://nlgrjwhxbk.execute-api.us-east-1.amazonaws.com/dev/',{
   Method: 'POST',
   Headers: {
     Accept: 'application.json',
-    Access-Control-Allow-Origin: "*"
   },
   Body: JSON.stringify(data1),
   Cache: 'default'
