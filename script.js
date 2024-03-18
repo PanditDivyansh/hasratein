@@ -37,11 +37,10 @@ fetch('https://snbxzuu3e8.execute-api.us-east-1.amazonaws.com/dev/',{
   mode: 'cors',
   Headers: {
     "Content-type": "application/json; charset=UTF-8",
-    "Authorization": Basic,
     "Accept": "application.json",
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Request-Method": "OPTIONS,POST",
-    "Access-Control-Request-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token"
+    // "Access-Control-Request-Method": "OPTIONS,POST",
+    // "Access-Control-Request-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token"
   },
   Body: JSON.stringify(data1),
   Cache: 'default'
