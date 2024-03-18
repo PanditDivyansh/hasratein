@@ -54,8 +54,8 @@ myHeaders.append("Content-Type", "application/json");
 
 const raw = JSON.stringify({
   "Name" : document.getElementById("Name").value,
-  "Email" :document.getElementById("email").value,
-  "Message":document.getElementById("message").value
+  "email" :document.getElementById("email").value,
+  "message":document.getElementById("message").value
 });
 
 const requestOptions = {
