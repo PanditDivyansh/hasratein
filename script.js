@@ -38,10 +38,6 @@ fetch('https://snbxzuu3e8.execute-api.us-east-1.amazonaws.com/dev/',{
   Headers: {
     "Content-type": "application/json; charset=UTF-8",
     "Accept": "application.json",
-    "Authorization" : "None",
-    "x-amzn-RequestId" : "f07ec02f-c33f-437a-827c-e6e47d0a85f0",
-    "x-amz-apigw-id": "U0rHtGRUIAMES_Q=",
-    "X-Amzn-Trace-Id":"Root=1-65f82564-52f72e356d8d45dd27d66a54;Parent=5942065560251138;Sampled=0;lineage=001bdc99:0",
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Request-Method": "OPTIONS,POST",
     "Access-Control-Request-Headers": "Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token"
