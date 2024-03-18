@@ -37,7 +37,7 @@ fetch('https://snbxzuu3e8.execute-api.us-east-1.amazonaws.com/dev/',{
   mode: 'cors',
   Headers: {
     "Content-type": "application/json; charset=UTF-8",
-    "Authorization": `Basic ${auth}`,
+    "Authorization": "Basic ${auth}",
     "Accept": "application.json",
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Request-Method": "OPTIONS,POST",
