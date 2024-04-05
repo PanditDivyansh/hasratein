@@ -43,6 +43,12 @@ const requestOptions = {
   redirect: "follow"
 };
 
+fetch("https://tsjpxpxa8e.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
+  .then((response) => response.text())
+  .then((result) => console.log(result))
+  .catch((error) => console.error(error));
+};
+
 fetch("https://snbxzuu3e8.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
   .then((response) => response.text())
   .then((result) => console.log(result))
